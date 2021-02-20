@@ -8,3 +8,5 @@ Scenario: Search validation
 When I enter `Vividus Framework` in field located `By.elementName(q)`
 When I click on a button with the name 'btnK'
 Then a link by By.linkUrl(https://github.com/vividus-framework) exists
+
+Then 
